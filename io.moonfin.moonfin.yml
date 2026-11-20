@@ -46,7 +46,7 @@ modules:
       - type: git
         url: https://github.com/mpv-player/mpv.git
         tag: v0.42.0
-        commit: b985c3634ef056b185e3f13c7ac597b3611f5774
+        commit: b0841e8c4d156b8403dc1876c4cbd9011eb583f3
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -59,7 +59,7 @@ modules:
           - type: git
             url: https://github.com/libass/libass.git
             tag: 0.17.5
-            commit: 64ebcac709d949e6059bdacf5356c3af7848e8e5
+            commit: 4a05d8127f525943ebf45fdc6497c9e665947f0d
             x-checker-data:
               type: git
               tag-pattern: ^([\d.]+)$
@@ -92,7 +92,7 @@ modules:
           - type: git
             url: https://code.videolan.org/videolan/libplacebo.git
             tag: v7.387.0
-            commit: 451d8ea5661c868562725e6500deda7fdd4e9a1e
+            commit: 275f7dea27924cdd34ab2e6c20e448b6bc4fab65
             x-checker-data:
               type: git
               tag-pattern: ^v([\d.]+)$
